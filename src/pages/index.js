@@ -10,7 +10,8 @@ var settings = {
   images: [
     { url: require('../assets/images/bg01.jpg'), position: 'center' },
     { url: require('../assets/images/bg02.jpg'), position: 'center' },
-    { url: require('../assets/images/bg03.jpg'), position: 'center' },
+    { url: require('../assets/images/pexels-martin-mariani-3801516.jpg'), position: 'center' },
+    { url: require('../assets/images/pexels-andrea-piacquadio-941555.jpg'), position: 'center' },
   ],
   // Delay.
   delay: 6000,
