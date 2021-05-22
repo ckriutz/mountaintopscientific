@@ -10,7 +10,7 @@ export class EmailForm extends Component {
   onSubmit(e) {
     e.preventDefault();
     e.stopPropagation();
-    this.setState({ message: 'Thank you!' });
+    this.setState({ message: 'This accomplished nothing.' });
     setTimeout(() => {
       this.setState({ message: '' });
     }, 3000);
@@ -26,7 +26,7 @@ export class EmailForm extends Component {
           id="email"
           placeholder="Email Address"
         />
-        <input type="submit" value="Sign Up" />
+        <input type="submit" value="Learn More" />
         <span className={`${message ? 'visible success' : ''} message`}>
           {message}
         </span>

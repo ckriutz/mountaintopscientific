@@ -11,7 +11,7 @@ module.exports = {
   // social
   heading: 'Mountaintop Scientific',
   subHeading:
-    "No matter how secret a particular satellite was, it had to obey the same laws of physics as the rest of the solar system.",
+    "Sometimes Science is More Art Than Science.",
   socialLinks: [
     //{
     //  icon: 'fa-github',
